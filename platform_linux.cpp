@@ -4,10 +4,10 @@ using namespace BinaryNinja;
 using namespace std;
 
 
-class LinuxX86Platform: public Platform
+class LinuxX86Platform : public Platform
 {
-public:
-	LinuxX86Platform(Architecture* arch): Platform(arch, "linux-x86")
+ public:
+	LinuxX86Platform(Architecture* arch) : Platform(arch, "linux-x86")
 	{
 		Ref<CallingConvention> cc;
 
@@ -32,10 +32,10 @@ public:
 	}
 };
 
-class LinuxPpc32Platform: public Platform
+class LinuxPpc32Platform : public Platform
 {
-public:
-	LinuxPpc32Platform(Architecture* arch, const std::string& name): Platform(arch, name)
+ public:
+	LinuxPpc32Platform(Architecture* arch, const std::string& name) : Platform(arch, name)
 	{
 		Ref<CallingConvention> cc;
 
@@ -51,10 +51,10 @@ public:
 	}
 };
 
-class LinuxPpc64Platform: public Platform
+class LinuxPpc64Platform : public Platform
 {
-public:
-	LinuxPpc64Platform(Architecture* arch, const std::string& name): Platform(arch, name)
+ public:
+	LinuxPpc64Platform(Architecture* arch, const std::string& name) : Platform(arch, name)
 	{
 		Ref<CallingConvention> cc;
 
@@ -70,10 +70,10 @@ public:
 	}
 };
 
-class LinuxX64Platform: public Platform
+class LinuxX64Platform : public Platform
 {
-public:
-	LinuxX64Platform(Architecture* arch): Platform(arch, "linux-x86_64")
+ public:
+	LinuxX64Platform(Architecture* arch) : Platform(arch, "linux-x86_64")
 	{
 		Ref<CallingConvention> cc;
 
@@ -93,10 +93,10 @@ public:
 };
 
 
-class LinuxArmv7Platform: public Platform
+class LinuxArmv7Platform : public Platform
 {
-public:
-	LinuxArmv7Platform(Architecture* arch, const std::string& name): Platform(arch, name)
+ public:
+	LinuxArmv7Platform(Architecture* arch, const std::string& name) : Platform(arch, name)
 	{
 		Ref<CallingConvention> cc;
 
@@ -116,10 +116,10 @@ public:
 };
 
 
-class LinuxArm64Platform: public Platform
+class LinuxArm64Platform : public Platform
 {
-public:
-	LinuxArm64Platform(Architecture* arch): Platform(arch, "linux-aarch64")
+ public:
+	LinuxArm64Platform(Architecture* arch) : Platform(arch, "linux-aarch64")
 	{
 		Ref<CallingConvention> cc;
 
@@ -139,10 +139,10 @@ public:
 };
 
 
-class LinuxMipsPlatform: public Platform
+class LinuxMipsPlatform : public Platform
 {
-public:
-	LinuxMipsPlatform(Architecture* arch, const std::string& name): Platform(arch, name)
+ public:
+	LinuxMipsPlatform(Architecture* arch, const std::string& name) : Platform(arch, name)
 	{
 		Ref<CallingConvention> cc;
 
