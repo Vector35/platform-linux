@@ -20,7 +20,7 @@ public:
 
 		cc = arch->GetCallingConventionByName("regparm");
 		if (cc)
-			RegisterFastcallCallingConvention(cc);
+			RegisterCallingConvention(cc);
 
 		cc = arch->GetCallingConventionByName("stdcall");
 		if (cc)
