@@ -174,6 +174,7 @@ extern "C"
 		AddOptionalPluginDependency("arch_arm64");
 		AddOptionalPluginDependency("arch_mips");
 		AddOptionalPluginDependency("arch_ppc");
+		AddOptionalPluginDependency("view_elf");
 	}
 #endif
 
